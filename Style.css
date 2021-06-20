@@ -1,0 +1,104 @@
+.banner-area {
+    background: rgba(0, 0, 0, 0.5) url(22.jpg);
+    filter: blur(0px);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 15px 60px;
+}
+
+.menu {
+    width: 42%;
+    float: right;
+    list-style: none;
+}
+
+.menu li {
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    float: left;
+}
+
+.menu li:hover {
+    background: crimson;
+    border-radius: 15px;
+}
+
+.menu li a:hover {
+    color: skyblue;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+    text-transform: uppercase;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+    padding: 50px 0;
+    width: 20%;
+    float: left;
+}
+
+.logo:hover {
+    color: crimson;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-family: cursive;
+    margin: 0;
+    font-size: 50px;
+    color: crimson;
+}
+
+.banner-text p {
+    font-family: 22px;
+    /* margin: 0; */
+    font-family: cursive;
+    padding: 3px;
+}
+
+.banner-text a {
+    text-decoration: none;
+    border: 3px solid white;
+    font-size: 17px;
+    padding: 10px 35px;
+    color: crimson;
+    display: inline block;
+    margin-top: 5px;
+    font-family: cursive;
+}
+
+.banner-text a:hover {
+    border-color: crimson;
+    color: black;
+    background: crimson;
+    transition: .9s;
+    color: #262626;
+}
